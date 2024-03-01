@@ -14,4 +14,9 @@ class HomeController {
         return ResponseEntity.ok("hi justin")
     }
 
+    @GetMapping("/huah")
+    fun HUAH(): ResponseEntity<String> {
+        return ResponseEntity.ok("bruh")
+    }
+
 }
